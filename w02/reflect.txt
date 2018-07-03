@@ -1,0 +1,18 @@
+//Name: Hwisun Bae
+// Student #: 128835170
+// Section: IPC 144 SMM
+
+
+1. 
+* Most important thing in this workshop was to use how to convert an integer value into double value by using casting expression such as (double), and vice versa.
+* It was required to utilize specifier of output format and input format for scanf and printf.
+* In order to use modulus(%), it was essential to know modulus is the expression to operate remainder.
+
+2.
+* If there were not added .005, the value of GST would become 1.12(1.1284) which is supposed to be rounded into 1.13 in 2 decimal points. To make the value rounded, I had to add .005.
+
+3.
+* Under the circumstances	 where you’ve initially put an integer before, it can be converted to another type such as double, float by using a casting operation. 
+
+4.
+* In order to calculate balance owing after loonies calculation, modulus had to be used, which was 81=981%900. However, casting operations that make an integer into a double must be used because the value is expressed in a double to 2 decimal points.

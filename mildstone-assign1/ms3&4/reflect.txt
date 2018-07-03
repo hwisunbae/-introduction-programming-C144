@@ -1,0 +1,4 @@
+1. The reason why a struct which is Contact has three different modules is that each of the module has been used to be called in a1ms4.c file. Each of them has its own different purposes which are name, address, and numbers to get the value from users. A struct is useful to hold many data at once like arrays.
+2. The most difficult part of this assignment was to divide the modules in apporpriate files. While completing this mildstone, I got to know about how coding can be working together in groups. The less connection between files to files, the more productivity will occur.
+3. It took me for about three days to complete Milestone 4 because it contains the concept and usage of pointers, structure, and how to divide modules in several flies. 
+

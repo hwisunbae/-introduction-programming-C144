@@ -1,0 +1,5 @@
+1. The iterations are for loop, while loop, and do while loop.
+
+2. The most difference is if the condition is checked first or later. In while loop, condition will be checked first; the way while loop works is the same as the for loop. In do while loop, the statement is executed first, and then the condition will be checked.
+
+3. The conditional expression is structured as condition ? operand : operand. If the condition is satisfied, the first operand, which is located between ? and :, will be executed. If it is not, the other operand will be operated. 

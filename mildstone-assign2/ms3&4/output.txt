@@ -1,0 +1,753 @@
+Script started on Thu 12 Apr 2018 07:00:37 PM EDT
+hbae22@matrix:~/ipc144smm/mildstones/assign2/ms3&4> ms4
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 1
+
++-----------------------------------------------------------------------------+
+|                              Contacts Listing                               |
++-----------------------------------------------------------------------------+
+ Rick Grimes
+    C: 4161112222   H: 4162223333   B: 4163334444
+       11 Trailer Park, King City, A7A 2J2
+ Maggie R. Greene
+    C: 9051112222   H: 9052223333   B: 9053334444
+       55 Hightop House, Bolton, A9A 3K3
+ Morgan A. Jones
+    C: 7051112222   H: 7052223333   B: 7053334444
+       77 Cottage Lane, Peterborough, C7C 9Q9
+ Sasha Williams
+    C: 9052223333   H: 9052223333   B: 9054445555
+       55 Hightop House, Bolton, A9A 3K3
++-----------------------------------------------------------------------------+
+Total contacts: 4
+(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 2
+
+Please enter the contact's first name: I Should
+Do you want to enter a middle initial(s)? (y or n): y
+Please enter the contact's middle initial(s): B.
+Please enter the contact's last name: Gone
+Please enter the contact's street number: 99
+Please enter the contact's street name: No Name Rd.
+Do you want to enter an apartment number? (y or n): y
+Please enter the contact's apartment number: 11
+Please enter the contact's postal code: A1A J9J
+Please enter the contact's city: Nowhere City
+Please enter the contact's cell phone number: 1112223333
+Do you want to enter a home phone number? (y or n): y
+Please enter the contact's home phone number: 9991112222
+Do you want to enter a business phone number? (y or n): n
+--- New contact added! ---(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 1
+
++-----------------------------------------------------------------------------+
+|                              Contacts Listing                               |
++-----------------------------------------------------------------------------+
+ Rick Grimes
+    C: 4161112222   H: 4162223333   B: 4163334444
+       11 Trailer Park, King City, A7A 2J2
+ Maggie R. Greene
+    C: 9051112222   H: 9052223333   B: 9053334444
+       55 Hightop House, Bolton, A9A 3K3
+ Morgan A. Jones
+    C: 7051112222   H: 7052223333   B: 7053334444
+       77 Cottage Lane, Peterborough, C7C 9Q9
+ Sasha Williams
+    C: 9052223333   H: 9052223333   B: 9054445555
+       55 Hightop House, Bolton, A9A 3K3
+ I Should B. Gone
+    C: 1112223333   H: 9991112222   B:           
+       99 No Name Rd., Apt# 11, Nowhere City, A1A J9J
++-----------------------------------------------------------------------------+
+Total contacts: 5
+(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 2
+
+*** ERROR: The contact list is full! ***(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 3
+
+Enter the cell number for the contact: 6665555
+Enter a 10-digit phone number: 6665551111
+*** Contact NOT FOUND ***
+(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 3
+
+Enter the cell number for the contact: 9051112222
+Contact found:
+
+ Maggie R. Greene
+    C: 9051112222   H: 9052223333   B: 9053334444
+       55 Hightop House, Bolton, A9A 3K3
+
+Do you want to update the name? (y or n): y
+Please enter the contact's first name: Maggie
+Do you want to enter a middle initial(s)? (y or n): y
+Please enter the contact's middle initial(s): R.
+Please enter the contact's last name: Greene-Grimes
+Do you want to update the address? (y or n): y
+Please enter the contact's street number: 55
+Please enter the contact's street name: Hightop House
+Do you want to enter an apartment number? (y or n): y
+Please enter the contact's apartment number: 201
+Please enter the contact's postal code: A9A 3K3
+Please enter the contact's city: Bolton
+Do you want to update the numbers? (y or n): y
+Please enter the contact's cell phone number: 905
+Enter a 10-digit phone number: 9051112222
+Do you want to enter a home phone number? (y or n): n
+Do you want to enter a business phone number? (y or n): n
+--- Contact Updated! ---(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> ^C
+hbae22@matrix:~/ipc144smm/mildstones/assign2/ms3&4> [1P[1P[1Pls -ll[K[[[[[[K~rak[[Kkesh.kantaria/submit 144_ a2ms4
+[H[2JSubmitter (V0.97.1)
+Submitting Assignment 2 - Milestone 4
+gcc -Wall -o ms4 contacts.c contactHelpers.c 144_a2ms4_tester.c 2> error.txt
+Success! no errors or warnings...
+
+
+READ THE FOLLOWING CAREFULLY!
+I am about to execute the tester and script the output to "output.txt"
+Please enter the values carefuly and exactly as instructed.
+Press <ENTER> to start...
+[H[2JFOLLOW THESE INSTRUCTIONS:
+1- Type ms4 and hit <ENTER>
+2- Use the test data specified in Assignment 2 - Milestone 4 to test the program
+3- When done, type exit and hit <ENTER> to continue the submission process.
+Script started, file is output.txt
+hbae22@matrix:~/ipc144smm/mildstones/assign2/ms3&4> ms4
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 1
+
++-----------------------------------------------------------------------------+
+|                              Contacts Listing                               |
++-----------------------------------------------------------------------------+
+ Rick Grimes
+    C: 4161112222   H: 4162223333   B: 4163334444
+       11 Trailer Park, King City, A7A 2J2
+ Maggie R. Greene
+    C: 9051112222   H: 9052223333   B: 9053334444
+       55 Hightop House, Bolton, A9A 3K3
+ Morgan A. Jones
+    C: 7051112222   H: 7052223333   B: 7053334444
+       77 Cottage Lane, Peterborough, C7C 9Q9
+ Sasha Williams
+    C: 9052223333   H: 9052223333   B: 9054445555
+       55 Hightop House, Bolton, A9A 3K3
++-----------------------------------------------------------------------------+
+Total contacts: 4
+(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 2
+
+Please enter the contact's first name: I Should
+Do you want to enter a middle initial(s)? (y or n): y
+Please enter the contact's middle initial(s): B.
+Please enter the contact's last name: Gone
+Please enter the contact's street number: 99
+Please enter the contact's street name: No Name Rd.
+Do you want to enter an apartment number? (y or n): y
+Please enter the contact's apartment number: 11
+Please enter the contact's postal code: A1A J9J
+Please enter the contact's city: Nowhere City
+Please enter the contact's cell phone number: 1112223333
+Do you want to enter a home phone number? (y or n): y
+Please enter the contact's home phone number: 9991112222
+Do you want to enter a business phone number? (y or n): n
+--- New contact added! ---(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 1
+
++-----------------------------------------------------------------------------+
+|                              Contacts Listing                               |
++-----------------------------------------------------------------------------+
+ Rick Grimes
+    C: 4161112222   H: 4162223333   B: 4163334444
+       11 Trailer Park, King City, A7A 2J2
+ Maggie R. Greene
+    C: 9051112222   H: 9052223333   B: 9053334444
+       55 Hightop House, Bolton, A9A 3K3
+ Morgan A. Jones
+    C: 7051112222   H: 7052223333   B: 7053334444
+       77 Cottage Lane, Peterborough, C7C 9Q9
+ Sasha Williams
+    C: 9052223333   H: 9052223333   B: 9054445555
+       55 Hightop House, Bolton, A9A 3K3
+ I Should B. Gone
+    C: 1112223333   H: 9991112222   B:           
+       99 No Name Rd., Apt# 11, Nowhere City, A1A J9J
++-----------------------------------------------------------------------------+
+Total contacts: 5
+(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 2
+
+*** ERROR: The contact list is full! ***(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 3
+
+Enter the cell number for the contact: 6665555
+Enter a 10-digit phone number: 6665551111
+*** Contact NOT FOUND ***
+(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 3
+
+Enter the cell number for the contact: 9051112222
+Contact found:
+
+ Maggie R. Greene
+    C: 9051112222   H: 9052223333   B: 9053334444
+       55 Hightop House, Bolton, A9A 3K3
+
+Do you want to update the name? (y or n): y
+Please enter the contact's first name: Maggie
+Do you want to enter a middle initial(s)? (y or n): y
+Please enter the contact's middle initial(s): R.
+Please enter the contact's last name: Greene-Grimes
+Do you want to update the address? (y or n): y
+Please enter the contact's street number: 55
+Please enter the contact's street name: Hightop House
+Do you want to enter an apartment number? (y or n): y
+Please enter the contact's apartment number: 201
+Please enter the contact's postal code: A9A 3K3
+Please enter the contact's city: Bolton
+Do you want to update the numbers? (y or n): y
+Please enter the contact's cell phone number: 905
+Enter a 10-digit phone number: 9051112222
+Do you want to enter a home phone number? (y or n): n
+Do you want to enter a business phone number? (y or n): n
+--- Contact Updated! ---(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 1
+
++-----------------------------------------------------------------------------+
+|                              Contacts Listing                               |
++-----------------------------------------------------------------------------+
+ Rick Grimes
+    C: 4161112222   H: 4162223333   B: 4163334444
+       11 Trailer Park, King City, A7A 2J2
+ Maggie R. Greene-Grimes
+    C: 9051112222   H:              B:           
+       55 Hightop House, Apt# 201, Bolton, A9A 3K3
+ Morgan A. Jones
+    C: 7051112222   H: 7052223333   B: 7053334444
+       77 Cottage Lane, Peterborough, C7C 9Q9
+ Sasha Williams
+    C: 9052223333   H: 9052223333   B: 9054445555
+       55 Hightop House, Bolton, A9A 3K3
+ I Should B. Gone
+    C: 1112223333   H: 9991112222   B:           
+       99 No Name Rd., Apt# 11, Nowhere City, A1A J9J
++-----------------------------------------------------------------------------+
+Total contacts: 5
+(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 4
+
+Enter the cell number for the contact: 9051112222
+Contact found:
+
+ Maggie R. Greene-Grimes
+    C: 9051112222   H:              B:           
+       55 Hightop House, Apt# 201, Bolton, A9A 3K3
+
+CONFIRM: Delete this contact? (y or n): n
+(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 4
+
+Enter the cell number for the contact: 9051112222
+Contact found:
+
+ Maggie R. Greene-Grimes
+    C: 9051112222   H:              B:           
+       55 Hightop House, Apt# 201, Bolton, A9A 3K3
+
+CONFIRM: Delete this contact? (y or n): y
+--- Contact deleted! ---
+(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 1
+
++-----------------------------------------------------------------------------+
+|                              Contacts Listing                               |
++-----------------------------------------------------------------------------+
+ Rick Grimes
+    C: 4161112222   H: 4162223333   B: 4163334444
+       11 Trailer Park, King City, A7A 2J2
+ Morgan A. Jones
+    C: 7051112222   H: 7052223333   B: 7053334444
+       77 Cottage Lane, Peterborough, C7C 9Q9
+ Sasha Williams
+    C: 9052223333   H: 9052223333   B: 9054445555
+       55 Hightop House, Bolton, A9A 3K3
+ I Should B. Gone
+    C: 1112223333   H: 9991112222   B:           
+       99 No Name Rd., Apt# 11, Nowhere City, A1A J9J
++-----------------------------------------------------------------------------+
+Total contacts: 4
+(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 2
+
+Please enter the contact's first name: Where
+Do you want to enter a middle initial(s)? (y or n): y
+Please enter the contact's middle initial(s): Do
+Please enter the contact's last name: I Belong
+Please enter the contact's street number: 22
+Please enter the contact's street name: Somewhere Lane
+Do you want to enter an apartment number? (y or n): n
+Please enter the contact's postal code: A1A J9J
+Please enter the contact's city: Unknown
+Please enter the contact's cell phone number: 8883337777
+Do you want to enter a home phone number? (y or n): n
+Do you want to enter a business phone number? (y or n): y
+Please enter the contact's business phone number: 7771115555
+--- New contact added! ---
+(Press Enter to Continue)1
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 
+5
+
+Enter the cell number for the contact: 9052223333
+ Sasha Williams
+    C: 9052223333   H: 9052223333   B: 9054445555
+       55 Hightop House, Bolton, A9A 3K3
+(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 0
+
+Exit the program? (Y)es/(N)o: n
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 0
+
+Exit the program? (Y)es/(N)o: y
+
+Contact Management System: terminated
+hbae22@matrix:~/ipc144smm/mildstones/assign2/ms3&4> exit
+exit
+Script done, file is output.txt
+
+In line number 32 of your output:
+The output should be:
+
+But your output is: 
+(Press Enter to Continue)
+^
+|
+Professor's character ASCII code: hex(d), dec(13)
+un-matched character ASCII code: hex(28), dec(40)
+Outputs don't match. Submission aborted!
+hbae22@matrix:~/ipc144smm/mildstones/assign2/ms3&4> 
+hbae22@matrix:~/ipc144smm/mildstones/assign2/ms3&4> ~rakesh.kantaria/submit 144_aa2ms4
+[H[2JSubmitter (V0.97.1)
+Submitting Assignment 2 - Milestone 4
+gcc -Wall -o ms4 contacts.c contactHelpers.c 144_a2ms4_tester.c 2> error.txt
+Success! no errors or warnings...
+
+
+READ THE FOLLOWING CAREFULLY!
+I am about to execute the tester and script the output to "output.txt"
+Please enter the values carefuly and exactly as instructed.
+Press <ENTER> to start...
+[H[2JFOLLOW THESE INSTRUCTIONS:
+1- Type ms4 and hit <ENTER>
+2- Use the test data specified in Assignment 2 - Milestone 4 to test the program
+3- When done, type exit and hit <ENTER> to continue the submission process.
+Script started, file is output.txt
+hbae22@matrix:~/ipc144smm/mildstones/assign2/ms3&4> ms1
+If 'ms1' is not a typo you can use command-not-found to lookup the package that contains it, like this:
+    cnf ms1
+hbae22@matrix:~/ipc144smm/mildstones/assign2/ms3&4> 
+hbae22@matrix:~/ipc144smm/mildstones/assign2/ms3&4> 
+hbae22@matrix:~/ipc144smm/mildstones/assign2/ms3&4> 2
+If '2' is not a typo you can use command-not-found to lookup the package that contains it, like this:
+    cnf 2
+hbae22@matrix:~/ipc144smm/mildstones/assign2/ms3&4> [K^C
+hbae22@matrix:~/ipc144smm/mildstones/assign2/ms3&4> ms[[[K~rakesh[K.kantaria/submit 144_ a2ms4
+[H[2JSubmitter (V0.97.1)
+Submitting Assignment 2 - Milestone 4
+gcc -Wall -o ms4 contacts.c contactHelpers.c 144_a2ms4_tester.c 2> error.txt
+Success! no errors or warnings...
+
+
+READ THE FOLLOWING CAREFULLY!
+I am about to execute the tester and script the output to "output.txt"
+Please enter the values carefuly and exactly as instructed.
+Press <ENTER> to start...
+[H[2JFOLLOW THESE INSTRUCTIONS:
+1- Type ms4 and hit <ENTER>
+2- Use the test data specified in Assignment 2 - Milestone 4 to test the program
+3- When done, type exit and hit <ENTER> to continue the submission process.
+Script started, file is output.txt
+hbae22@matrix:~/ipc144smm/mildstones/assign2/ms3&4> ms4
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 1
+
++-----------------------------------------------------------------------------+
+|                              Contacts Listing                               |
++-----------------------------------------------------------------------------+
+ Rick Grimes
+    C: 4161112222   H: 4162223333   B: 4163334444
+       11 Trailer Park, King City, A7A 2J2
+ Maggie R. Greene
+    C: 9051112222   H: 9052223333   B: 9053334444
+       55 Hightop House, Bolton, A9A 3K3
+ Morgan A. Jones
+    C: 7051112222   H: 7052223333   B: 7053334444
+       77 Cottage Lane, Peterborough, C7C 9Q9
+ Sasha Williams
+    C: 9052223333   H: 9052223333   B: 9054445555
+       55 Hightop House, Bolton, A9A 3K3
++-----------------------------------------------------------------------------+
+Total contacts: 4
+
+(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 2
+
+Please enter the contact's first name: I Should
+Do you want to enter a middle initial(s)? (y or n): y
+Please enter the contact's middle initial(s): B.
+Please enter the contact's last name: Gone
+Please enter the contact's street number: 99
+Please enter the contact's street name: No Name Rd.
+Do you want to enter an apartment number? (y or n): y
+Please enter the contact's apartment number: 11
+Please enter the contact's postal code: A1A J9J
+Please enter the contact's city: Nowhere City
+Please enter the contact's cell phone number: 1112223333
+Do you want to enter a home phone number? (y or n): y
+Please enter the contact's home phone number: 9991112222
+Do you want to enter a business phone number? (y or n): n
+--- New contact added! ---
+(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 1
+
++-----------------------------------------------------------------------------+
+|                              Contacts Listing                               |
++-----------------------------------------------------------------------------+
+ Rick Grimes
+    C: 4161112222   H: 4162223333   B: 4163334444
+       11 Trailer Park, King City, A7A 2J2
+ Maggie R. Greene
+    C: 9051112222   H: 9052223333   B: 9053334444
+       55 Hightop House, Bolton, A9A 3K3
+ Morgan A. Jones
+    C: 7051112222   H: 7052223333   B: 7053334444
+       77 Cottage Lane, Peterborough, C7C 9Q9
+ Sasha Williams
+    C: 9052223333   H: 9052223333   B: 9054445555
+       55 Hightop House, Bolton, A9A 3K3
+ I Should B. Gone
+    C: 1112223333   H: 9991112222   B:           
+       99 No Name Rd., Apt# 11, Nowhere City, A1A J9J
++-----------------------------------------------------------------------------+
+Total contacts: 5
+
+(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 2
+
+*** ERROR: The contact list is full! ***
+(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 3
+
+Enter the cell number for the contact: 6665555
+Enter a 10-digit phone number: 6665551111
+*** Contact NOT FOUND ***
+(Press Enter to Continue)
+
+Contact Management System
+-------------------------
+1. Display contacts
+2. Add a contact
+3. Update a contact
+4. Delete a contact
+5. Search contacts by cell phone number
+6. Sort contacts by cell phone number
+0. Exit
+
+Select an option:> 3
+
+Enter the cell number for the contact: 9051112222
+
+Contact found:
+ Maggie R. Greene
+    C: 9051112222   H: 9052223333   B: 9053334444
+       55 Hightop House, Bolton, A9A 3K3
+
+Do you want to update the name? (y or n): y
+Please enter the contact's first name: Maggie
+Do you want to enter a middle initial(s)? (y or n): y
+Please enter the contact's middle initial(s): R.
+Please enter the contact's last name: Greene-Grimes
+Do you want to update the address? (y or n): y
+Please enter the contact's street number: 55
+Please enter the contact's street name: Hightop House
+Do y

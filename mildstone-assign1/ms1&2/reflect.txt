@@ -1,0 +1,9 @@
+1. There are several ways to ask users to put additioanl data
+which are stdout, puts, putchar.  
+Stdout is used as a pointer that represetns the default output;
+on the other hand, you can also you sterr which is a pointer for error messages.
+In order to use puts instead of printf, the string that you want to add should contain %(control characters).
+For example, puts(str) is the same as printf("%s",str);
+
+2.All string contain "null" at the end of a sentence. Therefore, it is essential declaring a C string to have it one letter more than how long it really is.
+For example, you can declare "str" that has 15 lengthy characters; in this case, you need to declare "str[16]"

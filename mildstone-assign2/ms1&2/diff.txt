@@ -1,0 +1,10 @@
+
+In line number 127 of your output:
+The output should be:
+Exit the program? (Y)es/(N)o: n
+But your output is: 
+Exit the program? n
+                  ^
+------------------|
+Professor's character ASCII code: hex(28), dec(40)
+un-matched character ASCII code: hex(6e), dec(110)

@@ -1,0 +1,5 @@
+1. As seen the maxium of array can hold 10 elements, the array should be declared to hold that amount.
+
+2. When matching arrays are used, it is easier to think and arrange both arrays that have different characteristics rather than using one mixed array. However, in this case, if a user switch the high value and low one in different arrays, it can show a result that is totally unexpected.
+
+3. To me, at home portion was hard to complete due to the combination of for statement and if statement. In order to complete the last part which is about print and scan iteration, I had to think about the procedure rather than writing a code directly. 
