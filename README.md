@@ -1,4 +1,4 @@
-# SENECA::Programming Fundamentals Using C
+# Programming Fundamentals Using C
 This repository contains Workshops, Projects, Notes, and other additional course work for Winter 2017 IPC144 emphasizing topics such as Computation, Arrays, Structures, Functions + Pointers, Files and Strings.
 
 ### Workshop
